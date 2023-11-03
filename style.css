@@ -9,4 +9,9 @@ h2 {
 table {
   background-color: white;
   color: black;
+  border-collapse: collapse;
+  border-left: none;
+  border-bottom: none;
+  border-left: solid 2px red;
+  border-bottom: solid 2px green;
 }
