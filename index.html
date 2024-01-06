@@ -1,41 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Scp Site Roleplay</title>
-  </head>
-  <body>
-    <center>
-      <h1>SCP: Site Roleplay</h1>
-      <p>
-        This is a small page for new players of the scp: site Roleplay to learn
-        the alarm system and what to do in any case.
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title>Scp Site Roleplay</title>
+</head>
+
+<body>
+  <center>
+    <!-- Warning Sign-->
+    <div style="background-color: red; color: white; padding: 5px;">
+      <h1>Warning</h1>
+      <p>This site is partened or official with the game! This site is a fun made to help new players!</p>
+    </div>
+    <!-- Main title-->
+    <h1>SCP: Site Roleplay</h1>
+    <p>
+      This is a small page for new players of the SCP: Site Roleplay to learn
+      the alarm system and what to do in any case.
+    </p>
+    <!-- Alarm table-->
+    <h2>Alarm Types</h2>
+    <table style="width: 70%; height: 300px;">
+      <thead>
+        <tr>
+          <th>Alarm Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Breach Alarm</td>
+          <td>When a breach/es is detected, activate this alarm. (Containment 1 doesn't count)</td>
+        </tr>
+        <tr>
+          <td>CD Escape</td>
+          <td>When 3 or more CDs escape the CDC hub.</td>
+        </tr>
+        <tr>
+          <td>CI Entered Site</td>
+          <td>When a CI member has entered the site or has been spoted somewhere in the site.</td>
+        </tr>
+        <tr>
+          <td>Lockdown</td>
+          <td>When a lot of alarms are detected at the same time, or the SID+ has lost control of the site.</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Broadcast table-->
+    <h2>Broadcast Examples - Templates</h2>
+    <table style="width: 100%; height: 250px;">
+      <thead>
+        <tr>
+          <th>Broadcast Type</th>
+          <th>Used in</th>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>All clear</td>
+          <td>When the site status is clear.</td>
+          <td>/broadcast All operations may continue as normal / {Testing Status: Allowed} 035 And con x need sid+ perm/
+            SCP: Foundation</td>
+        </tr>
+        <tr>
+          <td>Breach type 1</td>
+          <td>When a breach/es is detected with the danger of medium type.</td>
+          <td>/broadcast All operations may continue with caution / {Testing Status: May continue with caution} All
+            test's are prohibited from con // and upper./ SCP: Foundation</td>
+        </tr>
+        <tr>
+          <td>Breach type 2</td>
+          <td>When there is breaches with a very high danger.</td>
+          <td>/broadcast All site operations are prohibited / {Testing Status: Not Allowed} / SCP: Foundation</td>
+        </tr>
+        <tr>
+          <td>Lockdown</td>
+          <td>When the site is in lockdown.</td>
+          <td>/broadcast All site operations are prohibited / {Testing Status: Not Allowed} / SCP: Foundation</td>
+        </tr>
+        <tr>
+          <td>CD Escape</td>
+          <td>When 3 or more CDs escape the CDC hub.</td>
+          <td>/broadcast All site operations are prohibited / {Testing Status: Not Allowed} / SCP: Foundation</td>
+        </tr>
+        <tr>
+          <td>CI Entered Site</td>
+          <td>When a CI member has entered the site or has been spoted somewhere in the site.</td>
+          <td>/broadcast All site operations are prohibited / {Testing Status: Not Allowed} / SCP: Foundation</td>
+        </tr>
+        <tr>
+          <td>Meeting Call</td>
+          <td>When a meeting is called.</td>
+          <td>/broadcast Please all sid+ members go to the meeting room / {Testing Status: Not Allowed} / SCP:
+            Foundation
+        </tr>
+        <tr>
+          <td>Nuke Detonation</td>
+          <td>When the nuke is detonated.</td>
+          <td>/broadcast Nuke detonated / {Testing Status: Not Allowed} / SCP: Foundation</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- On nuke detonation-->
+    <h1>What to do on Nuke Detonation</h1>
+    <p>
+      When there is a lot of breaches all sid+ members must start a meeting and decide if they will detonate the nuke.
+      In case of the decision to detonate the nuke, all sid+ members must give all the personel a time of usaly 5 to 10
+      minutes to try to rc the breached scp's. After the time is over, 2 o5 members must take the keys and start heading
+      to the nuke room. While the 2 o5s are going the other sid+ members must tell the site that the 2 o5s are heading
+      to the nuke to activate the nuke and please all personel to get to the nearest nuke shelter. When the 2 o5s are in
+      the nuke room, they must activate the nuke protocol and get to the nearest nuke shelter. While the timer of 120
+      sec is going out the personel that are in the nuke shelter must defend it from pontetnial threats. The doors usaly
+      seal themselfs when the timer is at 20 sec. When the timer is at 0 the nuke will detonate and the round will end.
+    </p>
+    <!-- copyright-->
+    <footer>
+      <p>&copy; 2024 Charisios Charisiadis. The site is under a mit license for more info on the websites code please go
+        <a href="https://github.com/charisios10/scp-site-roleplay">here</a>.
       </p>
-    </center>
-    <center>
-      <h2>Alarms Types</h2>
-      <table>
-        <tr>
-          <th>Breach Alarm</th>
-          <th>CD Escape</th>
-          <th>Ci Entered The Site</th>
-          <th>Lockdown</th>
-        </tr>
-        <tr>
-          <td>
-            When a breach/es is detected then you will need to activate
-            this.(Containment 1 doesnt count)
-          </td>
-          <td>When 3 or more cds escape the cdc hub.</td>
-          <td>When a ci member has entered the site.</td>
-          <td>
-            When a lot of alarms are detected at the same time, or the sid+ has
-            lost controll of the site.
-          </td>
-        </tr>
-      </table>
-    </center>
-  </body>
+    </footer>
+  </center>
+</body>
+
 </html>

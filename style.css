@@ -1,17 +1,44 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
+
 h2 {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 24px;
+  text-transform: uppercase;
 }
+
 table {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   border-collapse: collapse;
-  border-left: none;
-  border-bottom: none;
-  border-left: solid 2px red;
-  border-bottom: solid 2px green;
+  border: 1px solid #000000; /* Add border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* BEGIN: Add dynamic hover effect */
+table tr:hover {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+/* END: Add dynamic hover effect */
+
+/* BEGIN: Add futuristic border */
+table {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table td {
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+table td:last-child {
+  border-bottom: none;
+}
+/* END: Add futuristic border */
