@@ -1,6 +1,6 @@
 # Scp Site Roleplay
 
-Welcome to the SCP Site Roleplay fan page! This page provides information about the alarms used in the SCP site roleplay. Please note that this is not an official site, but rather a fan-made page.
+Welcome to the SCP Site Roleplay fan page! This page provides information about the game. Please note that this is not an official site, but rather a fan-made page.
 
 ## License
 
